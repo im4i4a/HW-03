@@ -65,7 +65,8 @@
                 catch (Exception exception)
                 {
                     Console.WriteLine("Исключение:" + exception.GetType());
-                } finally 
+                } 
+                finally 
                 { 
                     Console.WriteLine("Finally!");
                 }
